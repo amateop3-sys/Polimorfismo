@@ -6,7 +6,7 @@ import ejercicio3.*;
 import ejercicio4.*;
 import ejercicio5.*;
 import ejercicio6.*;
-
+import ejercicio7.*;
 
 
 public class Main {
@@ -69,6 +69,32 @@ public class Main {
 		Persona p1= new Estudiante("JUAN", "7855V45B", "INGENIERIA");
 		p1.presentarse();
 		System.out.println("--------------------------------");
+		
+		
+		
+		
+		
+		// EJERCICIO 7
+		System.out.println("--------------------------------");
+		Vehiculo v1= new Motocicleta();
+		System.out.println("ESTADO DE LA MOTO: ");
+		v1.encender();
+		System.out.println("--------------------------------");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 
 	}
