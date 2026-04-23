@@ -7,6 +7,7 @@ import ejercicio4.*;
 import ejercicio5.*;
 import ejercicio6.*;
 import ejercicio7.*;
+import ejercicio8.*;
 
 
 public class Main {
@@ -86,7 +87,11 @@ public class Main {
 		
 		
 		
-		
+		// EJERCICIO 8
+		System.out.println("--------------------------------");
+		Producto pro1= new ProductoDigital("CHETTOS", 4.50, "5895FS5");
+		pro1.mostrarDescripcion();
+		System.out.println("--------------------------------");
 		
 		
 		
