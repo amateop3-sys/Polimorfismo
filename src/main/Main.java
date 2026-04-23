@@ -9,7 +9,7 @@ import ejercicio6.*;
 import ejercicio7.*;
 import ejercicio8.*;
 import ejercicio9.*;
-
+import ejercicio10.*;
 
 
 public class Main {
@@ -98,12 +98,26 @@ public class Main {
 		
 		
 		
+		
+		
 		// EJERCICIO 9
 		System.out.println("--------------------------------");
 		Instrumento ins1= new Guitarra();
 		System.out.println("GUITARRA: ");
 		ins1.tocar();
 		System.out.println("--------------------------------");
+		
+		
+		
+		
+		
+		
+		// EJERCICIO 10
+		System.out.println("--------------------------------");
+		Trabajador tra1= new TrabajadorPorHora(8,55.2);
+		System.out.println("PAGO POR HORA: "+tra1.calcularPago());
+		System.out.println("--------------------------------");
+		
 		
 		
 
