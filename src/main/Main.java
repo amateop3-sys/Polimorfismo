@@ -4,7 +4,7 @@ import ejercicio1.*; // IMPORTAMOS LOS PAQUETES Y SUS CONTENIDOS PARA PODER USAR
 import ejercicio2.*;
 import ejercicio3.*;
 import ejercicio4.*;
-
+import ejercicio5.*;
 
 
 
@@ -54,8 +54,12 @@ public class Main {
 		
 		
 		
-		
-		
+		// EJERCICIO 5
+		System.out.println("--------------------------------");
+		Transporte tr1= new Avion();
+		System.out.println("ESTADO DEL AVION: ");
+		tr1.moverse();
+		System.out.println("--------------------------------");
 		
 		
 		
