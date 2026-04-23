@@ -8,6 +8,8 @@ import ejercicio5.*;
 import ejercicio6.*;
 import ejercicio7.*;
 import ejercicio8.*;
+import ejercicio9.*;
+
 
 
 public class Main {
@@ -96,9 +98,12 @@ public class Main {
 		
 		
 		
-		
-		
-		
+		// EJERCICIO 9
+		System.out.println("--------------------------------");
+		Instrumento ins1= new Guitarra();
+		System.out.println("GUITARRA: ");
+		ins1.tocar();
+		System.out.println("--------------------------------");
 		
 		
 
